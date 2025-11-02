@@ -1,12 +1,28 @@
 # eeBotHCS12Monitor
-## This repository contains CodeWarrior assembly code, with separate files each showcasing different ways to control functionalities of a HCS12Monitor, and a eeBot
+## Embedded Systems Development with HCS12 Microcontroller and eeBot Platform
 
-### Lab 1 contains a program that displays the multiplication of two 8 bit numbers on the register
+This repository contains assembly code developed in CodeWarrior for the HCS12 microcontroller, demonstrating various embedded systems concepts through hardware interfacing and robotic control.
 
-### Lab 2 contains 3 programs that each display a message to the LCD monitor, change LED colors on the HCS12Monitor, and activate the buzzer sound
+### Lab 1: Arithmetic Operations
+- Implements multiplication of two 8-bit numbers with results displayed on processor registers
+- Demonstrates low-level arithmetic operations in assembly
 
-### Lab 3 contains a program that display the voltage value on the LCD monitor, which is affected by the potentiometer on the eeBot
+### Lab 2: Peripheral Device Control
+- **LCD Display**: Outputs custom messages to the LCD screen
+- **LED Control**: Manages RGB LED color changes on the HCS12Monitor
+- **Buzzer Activation**: Controls audio feedback using the buzzer peripheral
 
-### Lab 4 contains 3 programs that shows motor control subroutines, the interrupt-driven timer overflow counter routines, and timer alarms
+### Lab 3: Analog-to-Digital Conversion
+- Reads analog voltage values from the eeBot's potentiometer
+- Displays real-time voltage measurements on the LCD monitor
+- Demonstrates ADC interfacing and sensor data processing
 
-### Lab 5 contains a programs that allows the eeBot to move forward and backward whenever its bumpers are clicked, and allows it to turn and reverse direction
+### Lab 4: Timing and Motor Control
+- **Motor Subroutines**: Implements precise motor control algorithms
+- **Timer Overflow Counter**: Interrupt-driven timing routines using timer modules
+- **Timer Alarms**: Scheduled event handling through timer-based interrupts
+
+### Lab 5: Robotic Navigation with Sensor Input
+- Implements bumper-triggered movement: forward/backward motion on bumper activation
+- Features turning capabilities and directional reversal
+- Demonstrates sensor integration with motor control for autonomous behavior

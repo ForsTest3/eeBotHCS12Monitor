@@ -22,7 +22,12 @@ This repository contains assembly code developed in CodeWarrior for the HCS12 mi
 - **Timer Overflow Counter**: Interrupt-driven timing routines using timer modules
 - **Timer Alarms**: Scheduled event handling through timer-based interrupts
 
-### Lab 5: Robotic Navigation with Sensor Input
+### Lab 5: eebot movement
+- Develop a state-based control system to manage robot behavior.
+- Integrate bumper sensor feedback to trigger state transitions.
+- Implement forward motion and collision recovery routines.
+
+- ### Final Project: Robotic Navigation with Sensor Input
 - Implements bumper-triggered movement: forward/backward motion on bumper activation
 - Features turning capabilities and directional reversal
 - Demonstrates sensor integration with motor control for autonomous behavior
